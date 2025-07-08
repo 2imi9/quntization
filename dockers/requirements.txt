@@ -1,0 +1,4 @@
+loguru
+ipython
+hydra-core
+datasets

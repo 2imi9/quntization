@@ -1,0 +1,5 @@
+from .qwen3 import TEMPLATES as QWEN3_TEMPLATES
+
+CHAT_TEMPLATES = {
+    "qwen3": QWEN3_TEMPLATES
+}

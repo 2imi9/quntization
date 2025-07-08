@@ -1,0 +1,11 @@
+# vllm/vllm-openai:v0.9.1
+FROM vllm/vllm-openai:latest
+
+RUN apt-get update --fix-missing
+RUN apt-get install -y git \
+    curl \
+    wget
+
+WORKDIR /app
+
+ENTRYPOINT []

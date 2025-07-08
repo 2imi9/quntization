@@ -1,0 +1,19 @@
+model_name: Qwen/Qwen3-4B
+series: qwen3
+dataset:
+  mmlu-redux:
+    enable_thinking: false
+    temperature: 0.7
+    top_p: 0.8
+    top_k: 20
+    repetition_penalty : 1.0
+    max_sequence_length: 2048
+    do_sample: true,
+    num_return_sequences: 1
+predictor_conf:
+  transformers:
+    batch_size: 10
+output_dir: null
+eval_dataset: null
+debug: false
+eval_predictor: transformers
